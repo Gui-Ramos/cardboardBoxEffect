@@ -46,6 +46,7 @@ The element that will hide and show, should have the following characteristics.
 	color: black;
 	border: 1px solid #3558b2;			
 }
+`
 
 Then you should declare inside of the JQuery Plugin called cardboardbox the element father, and the element that will hide and show the informations.
 
