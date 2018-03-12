@@ -17,7 +17,7 @@ CDN or one file.
 
 First you need create a element in your project as the example in `index.hmtl` file, follow below.
 
-`<div class="thumbnail">
+```<div class="thumbnail">
 		<img src="img/metallica.jpg" alt="">
 		<div class="caption text-center">
 			<h5>Any Name</h5>
@@ -26,6 +26,6 @@ First you need create a element in your project as the example in `index.hmtl` f
 			<h5 class="text-warning">Use de Cardboard Box</h5>
 			<p>The Cardboard Box Effect offer a different way to show the informations, of way dinamic.Try to guess where the information comes from.</p>
 		</div>
-	</div>`
+	</div>```
 	
 
