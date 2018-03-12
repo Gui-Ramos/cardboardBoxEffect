@@ -17,8 +17,7 @@ CDN or one file.
 
 First you need create a element in your project as the example in `index.hmtl` file, follow below.
 
-`
-	<div class="thumbnail">
+`<div class="thumbnail">
 		<img src="img/metallica.jpg" alt="">
 		<div class="caption text-center">
 			<h5>Any Name</h5>
@@ -27,45 +26,6 @@ First you need create a element in your project as the example in `index.hmtl` f
 			<h5 class="text-warning">Use de Cardboard Box</h5>
 			<p>The Cardboard Box Effect offer a different way to show the informations, of way dinamic.Try to guess where the information comes from.</p>
 		</div>
-	</div>
-`
+	</div>`
+	
 
-The element that will hide and show, should have the following characteristics. 
-
-`
-.caption-information{
-	position: absolute;
-	top: 0px;
-	left: 15px;
-	padding: 10px;
-	width: 20%;
-	height: 93%;
-	border-radius: 5px;
-	background: #e2ebff;
-	display: none;
-	color: black;
-	border: 1px solid #3558b2;			
-}
-`
-
-Then you should declare inside of the JQuery Plugin called cardboardbox the element father, and the element that will hide and show the informations.
-
-`
-	$(document).ready(function(){
-			var status = 0;
-			var count = 0;
-			
-			//element that will activate the event
-			$(".thumbnail").hover(function(){
-				
-				//son of element that activated the event
-				var element = $(this).children(".caption-information");
-`
- To do little adjusts on element positions, sizes, velocity, effect, and other characteristics access the file `slideToggleDirections`.
- 
- `/js/slideToggleDirections.js`
- 
- 
- ### Observations
- 
- Please access the `slideToggleDirections` plugin in another repository, help me improve this plugin, send me a message about errors or ways to improve the Plugin.
